@@ -1,0 +1,255 @@
+
+body{
+width: 100%;
+margin: 0px;
+    padding: 0px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 322px;
+    background: linear-gradient(to top,
+    rgba(0,0,0, 1) 0%,
+    rgba(34,36,41, 1) 12%,
+    rgba(50,50,50, 1) 28%,
+    rgba(0,0,0, 1) 29%,
+    rgba(0,0,0, 1) 75%,
+    rgba(23,24,27, 1) 76%,
+    rgba(50,50,50, 1) 100% ) ;
+
+}
+.container{
+    width: 960px;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    position: relative;
+}
+header .logo_container{
+    position: absolute;
+    top: 83px;
+    left: 73px;
+    width: 240px;
+    height: 58px;
+}
+header .logo_container a{
+    display: block;
+    width: 235px;
+    height: 33px;
+    margin: 0px;
+    padding: 0px;
+}
+header .logo_container a img{
+    width: 231px;
+    height: 33px;
+}
+header .logo_container p{
+    width: 237px;
+    height: 15px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    font-size: 18px;
+    font-family: "Franklin Gothic Book";
+    color: rgb(168, 174, 190);
+    line-height: 0.001;
+    text-align: left;
+}
+
+ header .container .car{
+     width: 506px;
+     height: 270px;
+     margin: 0px;
+     padding: 0px;
+     position: absolute;
+     top: 0px;
+     left: 400px;
+     background: url("../images/car.png");
+}
+header  nav{
+    width: 100%;
+    height: 37px;
+    background: linear-gradient(to top,
+    rgba(253,80,3, 1) 0%,
+    rgba(253,109,3, 1) 100% ) ;
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+header nav .container a{
+    display: inline-block;
+    width: 105px;
+    height: 15px;
+    margin: 0px;
+    padding: 12px 34px 4px 34px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(35, 38, 43);
+    line-height: 16px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+}
+header nav .container .active{
+    color: rgb(253, 103, 3);
+    background: linear-gradient(to top,
+    rgba(22,24,27, 1) 0%,
+    rgba(34,36,41, 1) 100%) ;
+    border: 1px solid rgb(0,0,0);
+    border-top: 1px solid transparent;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 2;
+    position: relative;
+}
+header nav .container .active:before{
+    content: '';
+    width: 173px;
+    height: 2px;
+    position: absolute;
+    top: -2px;
+    left:0px;
+    background: linear-gradient(to top,
+    rgba(33,26,40, 1) 0%,
+    rgba(34,36,40, 1) 100%) ;
+    z-index: 3;
+
+}
+main{
+    width: 100%;
+    height: 407px;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(16,18,19);
+    position: relative;
+}
+main .grey_back{
+    background: rgb(47,50,57);
+    position: relative;
+    top: 25px;
+    height: 380px;
+    width: 100%;
+ }
+
+main .container section{
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    height: 340px;
+    margin: 15px 25px 20px 20px;
+    padding: 0px;
+    position: relative;
+}
+main .container section h2{
+    margin: 0px;
+    margin-bottom: 25px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: "Verdana";
+    color: rgb(253, 103, 3);
+    font-weight: bold;
+    line-height: 16px;
+    text-align: left;
+}
+main .container section p{
+    margin: 7px 0px 7px 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgb(229, 229, 229);
+    font-weight: normal;
+    text-align: left;
+}
+main .container section ul{
+    margin: 0px 0px 0px 23px;
+    padding: 0px;
+    list-style-image: url('../images/bullet.png');
+}
+main .container section ul li{
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgb(214, 213, 213);
+    font-weight: bold;
+    text-align: left;
+
+}
+main .container section .for_foto {
+    width: 270px;
+    height: 198px;
+}
+main .container section:nth-child(3) p{
+    width: 248px;
+    height: 55px;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+}
+main .container section:before {
+ content: '';
+    position: absolute;
+    top: -13px;
+    left: -23px;
+    width: 0px;
+    height: 375px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px dashed rgb(169,169,169);
+}
+main .container section:nth-child(3):after {
+    content: '';
+    position: absolute;
+    top: -13px;
+    right: -23px;
+    width: 0px;
+    height: 375px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px dashed rgb(169,169,169);
+}
+footer {
+    width: 100%;
+    height: 108px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top,
+    rgba(253,106,3, 1) 0%,
+    rgba(253,106,3, 1) 8%,
+    rgba(0,0,0, 1) 9%,
+    rgba(0,0,0, 1) 100%) ;
+}
+footer .container .contact {
+    width: 258px;
+    height: 57px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 29px;
+    left: 49px;
+}
+footer .container .contact h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(253, 88, 3);
+    text-align: left;
+    line-height: 18px;
+}
+footer .container .contact p{
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgb(214, 213, 213);
+    line-height: 12px;
+    text-align: left;
+}
